@@ -1,0 +1,79 @@
+.logo {
+  width: 120px;
+  height: 120px;
+}
+ .head {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+ }
+
+ .nav-items{
+  margin: 17px
+ }
+
+ .nav-items > ul {
+  display: flex;
+  list-style-type: none;
+ }
+
+ .nav-items > ul > li {
+  padding: 12px;
+  font-size: 22px;
+ }
+
+ .restro-img {
+  width: 100%;
+  height: 200px;
+ }
+
+ .card-container{
+   width: 300px;
+   /* height: 350px; */
+   padding: 2px;
+   margin: 17px;
+   background-color: #f0f0f0;
+ }
+
+ .card-container:hover{
+  border: 2px solid black;
+  cursor: pointer;
+ }
+
+ .cards-container{
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .filterButton{
+  margin-bottom: 16px;
+  margin-left: 12px;
+  padding: 5px;
+ }
+
+ .shimmer-cont{
+  display: flex;
+  flex-wrap: wrap
+ }
+
+ .shimmer-card{
+  width: 300px;
+  height: 350px;
+  background-color: #f0f0f0;
+  margin: 17px;
+ }
+
+ .login{
+  padding: 0px 12px;
+ }
+
+ .search-filter-btn{
+  display: flex;
+  margin: 12px;
+ }
+
+ .search{
+  height: 22px;
+  margin-right: 10px;
+ }
